@@ -1,0 +1,159 @@
+@import '../../App.scss';
+
+.filterWrapper{
+   //background-color: rgba(94, 81, 81, 0.33);
+    //border-radius: 50%;
+
+}
+.consoleFilter{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    padding-top: 1.5rem;
+    margin: 1rem 0rem;
+    .consoles{
+        margin: 10px;
+        width: 6vw;
+        min-width: 100px;
+        img{
+           width: 100%;
+           height: 100%;
+        max-width: 200px;
+        border: none
+    }
+    &:hover{
+        cursor: pointer;
+    }
+    }
+}
+
+.on {
+    margin: 10px;
+    width: 6vw;
+    min-width: 100px;
+    img{
+       width: 100%;
+       height: 100%;
+    max-width: 200px;
+    // border: 3px solid rgb(54, 136, 0);
+    box-shadow: 0px 0px 30px -1px rgb(165, 162, 162);
+
+
+   
+}
+&:hover{
+    background-color: rgb(138, 138, 113);
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+}
+.categoriesFilter{
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+        justify-content: center;
+        padding: 15px 0;
+        flex-wrap: wrap;
+    .category{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:5rem;
+        height:6rem;
+        margin: 0.7vw;
+        min-width: 70px;
+        p{
+            width: 100%;
+            color: white;
+            font-size: 0.7rem;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+        }
+        .categoryImage{
+            &:hover{
+                background-color: rgb(138, 138, 113);
+                cursor: pointer;
+                border-radius: 20px;
+
+            }
+            img{
+                padding: 1em;
+                box-shadow: 0 0 10px;
+                border: 1px solid rgb(85, 85, 85);
+                border-radius: 20px;
+                background-color:rgba(247, 202, 24, 0.952);
+
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+.categoryImageOn img{ 
+    padding: 1em;
+    //border: 3px solid rgb(54, 136, 0);
+    background-color:rgba(247, 202, 24, 0.952);
+    box-shadow: 0px 0px 50px -1px rgb(206, 204, 204);
+            
+                border-radius: 20px;
+                width: 100%;
+                height: 100%;
+}
+
+.categoryButtons{
+    padding-bottom: 1rem;
+    margin: 1.5rem;
+    text-align: center;
+
+    .apply { background-color: rgb(54, 136, 0); }
+    .reset { background-color: $mainred;  }
+    
+    .categoryButton{
+        color: white;
+        font-size: 1.7rem;
+        font-weight: bold;
+        border:1px solid rgba(255, 255, 255, 0.336);
+        
+        &:hover{
+            box-shadow: 0px 0px 30px -1px rgb(165, 162, 162);
+        }
+    }
+}
+#nintendo{
+    background-color: $mainred ;
+    border-radius: 10%;
+}
+#ps{
+    background-color: rgb(0, 48, 135);
+    border-radius: 10%;
+
+}
+#xbox{
+    border-radius: 10%;
+    background-color: rgb(16,124,16);
+}
+#win{
+    border-radius: 10%;
+    background-color: rgb(26, 24, 24);
+}
+.click1{
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 27%;
+}
+.click2{
+    width: 100px;
+    position: absolute;
+    top:-80%;
+    right: 28%;
+    transform: rotate(0.5turn);    
+}

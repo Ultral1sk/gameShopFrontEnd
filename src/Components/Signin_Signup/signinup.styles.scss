@@ -1,0 +1,241 @@
+.signinupWrapper{
+    padding-top: 200px;
+    background-color: black;
+    height: 100vh;
+    @media only screen and (max-width: 1266px) {
+        height: 100%;
+    }
+    .signin{
+       width: 300px;
+        height: 100%;
+        margin: 0px auto;
+        padding: 50px 0;
+        height: 100%;
+        .container{
+            position: relative;
+            background-color: rgb(29, 27, 27);
+        }
+        .signin-image{
+            .signinimage{
+                width: 300px;
+                position: absolute;
+                top: -118px;
+                left: 0;
+
+            }
+        }
+        .logo{
+            margin: 30px 0 20px 0;
+            width: 100%;
+        }
+        .signin-form{
+            width: 100%;
+            .form-title{
+                font-size: 1.1rem;
+                color: white;
+                font-weight: bold;
+                margin-bottom: 15px;
+            }
+            .form-group{
+                input{
+                width: 100%;
+                }
+                .inputFields{
+                    height: 50px;
+                    padding-left: 15px;
+                }
+
+            }
+            .googleLink{
+                background-color: rgb(179, 11, 11);
+                border-radius: 0px 5px 0px 5px;
+                border: 2px solid rgb(172, 46, 42);
+                &:hover{
+                    box-shadow: -2px 3px 25px -5px rgba(245,49,0,1);
+
+                }
+                a{color: white;text-decoration: none;}
+                .googleIcon{
+                    width: 20px;
+                    margin: 5px 25px 5px 25px;
+                   
+                    
+                }
+            }
+            .createAccount{
+                margin-top: 20px;
+            text-align: center;                
+                .signup-image-link{
+                    text-decoration: none;
+                    color: rgb(212, 176, 176);
+                    &:hover{
+                        color: rgb(228, 7, 7);
+                    }
+                }
+            }
+            .form-submit{
+                background-color: rgb(8, 8, 8);
+                color: whitesmoke;
+                border-radius: 0px 5px 0px 5px;
+                border: 2px solid rgb(172, 46, 42);
+                &:hover{
+                    box-shadow: -2px 3px 25px -5px rgba(245,49,0,1);
+
+                }
+            }
+            .logoWrapped{
+                width: 60px; 
+                margin: 0 auto;
+                 
+            }
+        }
+    }
+    .signup{
+        width: 300px;
+        height: 100%;
+        margin: 0px auto;
+        position: relative;
+        padding: 50px 0;
+        .container{
+            background-color: rgb(29, 27, 27);
+            position: relative;
+        }
+       /*  .rightRamp{
+            background-color: rgb(29, 27, 27);;
+            clip-path: polygon(0 0, 0% 100%, 100% 100%);
+            position: absolute;
+            width: 350px;
+            height: 250px;
+            bottom: 0;
+            left: 300px;
+        }
+        .leftRamp{
+            background-color: rgb(29, 27, 27);
+            clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+            position: absolute;
+            width: 350px;
+            height: 250px;
+            bottom: 0;
+            right: 300px;
+        } */
+
+        .signup-image{
+            .signupimage1{
+                width: 400px;
+                position: absolute;
+                top: -172px;
+                left: 45px;
+                width: 200px;
+
+            }
+           /*  .signupimage2{
+                width: 400px;
+                position: absolute;
+                top: 6px;
+                right: -361px;
+                width: 350px;
+                transform: rotate(30deg);
+
+            } */
+        }
+        .signup-form{
+            width: 100%;
+            .logoWrapped{
+                width: 60px; 
+                margin: 0 auto;
+                .logo{
+                    margin: 30px 0 20px 0;
+                    width: 100%;
+                }
+                 
+            }
+            .form-title{
+                font-size: 1.1rem;
+                color: white;
+                font-weight: bold;
+                padding-bottom: 15px;
+            }
+            .form-group{
+                input{
+                    width: 100%;
+                }
+                .inputFields{
+                    height: 50px;
+                    padding-left: 15px;
+                }
+
+            }
+            .googleLink{
+                background-color: rgb(179, 11, 11);
+                border-radius: 0px 5px 0px 5px;
+                border: 2px solid rgb(172, 46, 42);
+                &:hover{
+                    box-shadow: -2px 3px 25px -5px rgba(245,49,0,1);
+
+                }
+                a{color: white;text-decoration: none;}
+                .googleIcon{
+                    width: 20px;
+                    margin: 5px 25px 5px 25px;
+                   
+                    
+                }
+            }
+            .createAccount{
+                margin-top: 20px;
+            text-align: center;                
+                .signup-image-link{
+                    text-decoration: none;
+                    color: rgb(212, 176, 176);
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+            .form-submit{
+                background-color: rgb(8, 8, 8);
+                color: whitesmoke;
+                border-radius: 0px 5px 0px 5px;
+                border: 2px solid rgb(172, 46, 42);
+                &:hover{
+                    box-shadow: -2px 3px 25px -5px rgba(245,49,0,1);
+
+                }
+            }
+          
+        }
+        .label-agree-term{
+            color: white;
+            a{
+                color: rgb(128, 104, 104);
+                text-decoration: none;
+                &:hover{
+                    color: rgb(228, 7, 7);
+                }
+            }
+        }
+        .signin-image-link{
+            text-decoration: none;
+            color: rgb(128, 104, 104);
+            &:hover{
+                color: rgb(228, 7, 7);
+            }
+        }
+    }
+    .agree_terms{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #agree-term{
+            width: unset;
+        }
+        input{
+            margin: 0 15px 6px 0;
+        }
+    }
+    .term-service{
+        background:none;
+        border:none;
+        color:red
+    }
+}

@@ -1,0 +1,231 @@
+input:focus, textarea:focus, keygen:focus, select:focus {
+	outline: none;
+}
+::-moz-placeholder {
+	color: #666;
+	font-weight: 300;
+	opacity: 1;
+}
+
+::-webkit-input-placeholder {
+	color: #666;
+	font-weight: 300;
+}
+
+
+/* Contact Form Styling */
+.container {
+	padding: 0 50px 70px;
+}
+.textcenter {
+	text-align: center;
+}
+.section1 {
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+.section1 .shtext {
+	display: block;
+	margin-top: 20px;
+}
+.section1 .seperator {
+	border-bottom:1px solid #a2a2a2;
+	width: 35px;
+	display: inline-block;
+	margin: 20px;
+}
+
+.section1 h1 {
+	font-size: 40px;
+	color: #A44DD8;
+	font-weight: normal;
+}
+
+.section2 {
+    width: 1200px;
+	margin: 0 auto;
+	padding-top: 2rem;
+	font-size: 0.8vw ;
+}
+.section2 .col2 {
+	width: 48.71%;
+}
+.section2 .col2.first {
+	float: left;
+}
+.section2 .col2.last {
+	float: right;
+}
+.section2 .col2.column2 {
+	padding: 0 30px;
+}
+.section2 span.collig {
+	color: #a2a2a2;
+	margin-right: 10px;
+	display: inline-block;
+}
+.section2 .sec2addr {
+	display: block;
+	line-height: 26px;
+	padding-top: 3rem;
+	font-size: 1.1vw;
+}
+.section2 .sec2addr p:first-child {
+	margin-bottom: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.section2 .sec2contactform input[type="text"], 
+.section2 .sec2contactform input[type="number"], 
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+    padding: 18px;
+	border: 0;
+	color : white;
+	background: rgb(97,97,97);
+	background: linear-gradient(360deg, rgba(20, 20, 20, 0.980) 0%, rgba(31, 31, 31, 0.776) 100%, rgba(110, 110, 110, 0.653) 100%);
+	margin: 7px 0;
+	
+
+}
+.section2 .sec2contactform textarea {
+	width: 100%;
+	display: block;
+	color : white;
+  	resize:none;
+}
+.section2 .sec2contactform input[type="submit"] {
+	padding: 15px 40px;
+    color: #fff;
+    border: 0;
+    background: rgba(253, 22, 22, 0.74);
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 7px 0;
+    cursor: pointer;
+}
+.section2 .sec2contactform h3 {
+	font-weight: normal;
+    margin: 20px 0;
+    margin-top: 30px;
+    border-bottom: 3px solid red;
+    padding-bottom: 19px;
+   
+}
+
+/* @media querries */
+
+@media only screen and (max-width: 1266px) {
+	.section2 {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 960px) {
+	
+	.container {
+		padding: 0 30px 70px;
+	}
+	.section2 .col2 {
+		width: 100%;
+		display: block;
+	}
+	.section2 .col2.first {
+		margin-bottom: 10px;
+	}
+	.section2 .col2.column2 {
+		padding: 0;
+	}
+	body .sec2map {
+		height: 250px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.section2 .sec2addr {
+		font-size: 14px;
+	}
+	.section2 .sec2contactform h3 {
+		font-size: 16px;
+	}
+	.section2 .sec2contactform input[type="text"], .section2 .sec2contactform input[type="email"], .section2 .sec2contactform textarea {
+		padding: 10px;
+		margin:3px 0;
+	}
+	.section2 .sec2contactform input[type="submit"] {
+		padding: 10px 30px;
+		font-size: 14px;
+	}
+		.map {
+			margin: 0 auto;
+			width: 95% !important;
+			height : 350px !important;
+
+		}
+	
+}
+@media only screen and (max-width: 375px) and (max-width: 767px)  {
+	::-webkit-input-placeholder {
+
+		font-size: 15px;
+	}
+.section2 .sec2contactform input[type="text"], 
+.section2 .sec2contactform input[type="number"], 
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+    padding: 18px;
+	border: 0;
+	color : white;
+	background: rgb(97,97,97);
+	background: linear-gradient(360deg, rgba(20, 20, 20, 0.980) 0%, rgba(31, 31, 31, 0.776) 100%, rgba(110, 110, 110, 0.653) 100%);
+	margin: 7px 0;
+	
+
+}
+.section2 .sec2contactform textarea {
+	width: 100%;
+	display: block;
+	color : white;
+	  resize:none;
+	  
+}
+
+	.section1 h1 {
+		font-size: 28px;
+	}	
+	.map {
+		margin: 0 auto;
+		width: 95% !important;
+		height : 150px !important;
+		a {
+			color : white;
+		}
+		margin-bottom: 2rem;
+	}
+
+	@media only screen and (max-height: 737px) {
+		.map {
+			margin: 0 auto;
+			width: 95% !important;
+			height : 150px !important;
+
+		}
+	}
+}
+
+.detailsBG {
+	background: rgb(97,97,97);
+	background: linear-gradient(360deg, rgba(0, 0, 0, 0.99) 0%, rgba(0, 0, 0, 0.85) 100%, rgba(0, 0, 0, 0) 100%);
+}
+
+.map {
+	width: 500px;
+	height : 630px;
+	a {
+		color : white;
+	}
+}

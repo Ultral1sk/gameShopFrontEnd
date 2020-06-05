@@ -1,0 +1,127 @@
+@media only screen and (min-width: 325px)  { 
+    .cardButton { color : rgb(252, 52, 52) !important; 
+        &:hover{ text-decoration: underline !important;  } 
+    }
+    .side_card_main_wrapper { 
+        // background-color: rgb(0, 0, 0) ;
+        padding: 0rem 0rem;width: 100%; height: auto; margin: 0 auto; color : white}
+    .side_card_wrapper {      display: flex; justify-content: center;  flex-wrap: wrap;  :focus{  
+        -moz-box-shadow:    inset 0 0 20px rgb(255, 13, 13);
+        -webkit-box-shadow: inset 0 0 20px rgb(255, 13, 13);
+        box-shadow:         inset 0 0 20px rgb(255, 13, 13);; outline: none;} }
+    
+    .side_card_outer_wrapper {    display: flex; flex-direction: column;   max-width: 80%; height: 100%; margin: 0 auto;
+    
+    }
+    
+    .side_card_inner_wrapper { color: white; border-bottom: 1px solid rgba(71, 71, 71, 0); cursor : pointer;  ; max-width: 540px; height: 110px;  
+        background: linear-gradient(180deg, rgba(75,75,75,0) 0%, rgba(53, 53, 53, 0.514) 00%, rgba(153,153,153,0) 100%) !important;
+
+    
+        ; }
+    
+    .img_wrapper {  
+
+        margin: 0 10px; width: 20%; height: 100%; float: left;
+        img {  width: 100%; height: 105px; padding: 0.3rem; padding: 10px 0;  border-radius: 20px;   }} 
+        
+    .side_card_txt_wrapper { 
+        padding-top: 8px;
+        .side_card_description {width: 220px ; padding: 10px 0;  white-space: nowrap; overflow: hidden ; text-overflow: ellipsis; }
+        span { font-size : 2vw}  time { max-height: 105px; }
+        font-size: 2vw;
+    }
+    .newsCardWrapper { width: 80%; margin: 0 auto;}
+    .rightCardDetails  {
+
+        h5 { font-size: 4vw !important; }
+        p { font-size: 2.5vw !important;}
+       
+        div { 
+            padding-top: 20px;
+            a { font-size: 2.5vw;}
+        };
+    }
+    .latest_news_wrapper { margin-left: 0.1rem;}
+
+    .latest_news_outer_wrapper {
+        position: relative;  padding-left : 2rem; 
+        margin: 1rem 0;
+    }
+   
+}
+
+@media only screen and (min-width: 768px) {
+
+    .side_card_txt_wrapper { 
+        padding-top: 8px;
+        .side_card_description {width: 350px ; padding: 20px 0;  white-space: nowrap; overflow: hidden ; text-overflow: ellipsis; }
+        span { font-size : .5vw}  time { max-height: 105px; }
+        font-size: 1vw;
+    }
+
+    .rightCardDetails  {
+        
+        h5 { font-size: 2.2vw !important; }
+        p { font-size: 1.7vw !important;}
+       
+        div { 
+            padding-top: 0px !important;
+            a { font-size: 1.5vw;}
+        };
+    }
+   
+ }
+
+
+
+
+@media only screen and (min-width: 1280px) {
+    .side_card_wrapper { display: flex; justify-content: center !important; padding-left: 17rem; flex-wrap: nowrap;}
+
+    .side_card_main_wrapper { 
+        // background-color: rgb(0, 0, 0) 
+       width: 100%; height: 110vh;  color : white;
+    }
+
+    .side_card_outer_wrapper {    display: flex; flex-direction: column;   max-width: 1000px; height: 440px; overflow: none;
+
+    }
+    .side_card_txt_wrapper { 
+        padding-top: 8px;
+        .side_card_description {width: 400px ; padding: 15px 0;  white-space: nowrap; overflow: hidden ; text-overflow: ellipsis; }
+        span { font-size : .5vw}  time { max-height: 105px; }
+        font-size: .5vw;
+    }
+    .lefetCardtitleStyles { 
+        font-size: 18px;
+        white-space: nowrap; overflow: hidden ; text-overflow: ellipsis;
+
+    }
+    .titlesTXT { 
+        white-space: nowrap; overflow: hidden ; text-overflow: ellipsis;
+
+    }
+    .detailsTXT {
+        white-space: nowrap; overflow: hidden ; text-overflow: ellipsis;
+    }
+    .newsCardWrapper { width: 80%; margin: 0 auto; height: 74vh;
+        
+    }
+
+    .rightCardDetails  {
+
+        h5 { font-size: 1.22vw !important; }
+        p { font-size: 0.7vw !important;}
+       
+        div { 
+            padding-top: 0px !important;
+            a { font-size: 0.8vw;}
+        };
+    }
+    .latest_news_outer_wrapper {
+        position: relative;  padding-left : 9rem; 
+        margin: 1rem 0;
+    }
+   
+ }

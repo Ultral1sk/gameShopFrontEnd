@@ -1,0 +1,16 @@
+.shippingPaymentSteps{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  height: 100vh;
+  .followSteps{
+
+    overflow: auto;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    }
+  
+}

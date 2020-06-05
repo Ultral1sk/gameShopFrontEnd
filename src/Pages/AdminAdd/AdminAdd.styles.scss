@@ -1,0 +1,97 @@
+#root{
+    background-color: black;
+}
+.adminAddWrapper{
+    background-color: black; 
+    width: 1000px; 
+    margin: 0 auto;
+    padding-bottom: 50px;
+    .adminAddTitle{
+        margin-bottom: 40px; 
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    .fileUploadBox{
+        margin: 20px 100px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .fourTextFieldsBoxWrapper{
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+        margin: 0
+    }
+    .descriptionWrapper{
+        width: 1000px; 
+        margin: 0 0 10px 0; 
+        .desciptionTextField{
+            background: rgb(97,97,97);
+            background: linear-gradient(360deg, rgba(20, 20, 20, 0.980) 0%, rgba(31, 31, 31, 0.776) 100%, rgba(110, 110, 110, 0.653) 100%);
+            width: 100%;
+            border:none;
+            color: white!important;
+            padding-left: 5px;
+        }
+    }
+
+
+}
+/* .borderBottom{
+    border-bottom: 7px solid red;
+} */
+
+#custom-file-input {
+    margin: auto;
+    color : white;
+    background: rgb(97,97,97);
+    background: linear-gradient(360deg, rgba(20, 20, 20, 0.980) 0%, rgba(31, 31, 31, 0.776) 100%, rgba(110, 110, 110, 0.653) 100%);
+      }
+.textFieldsWrapper{
+    
+    width: 490px; 
+    margin-bottom: 5px;
+    color: white;
+.textFields{
+  width: 100%;
+  background-color: rgb(97,97,97);
+  background: linear-gradient(360deg, rgba(20, 20, 20, 0.980) 0%, rgba(31, 31, 31, 0.776) 100%, rgba(110, 110, 110, 0.653) 100%);
+  border:none;
+  height:50px;
+  color: white!important;
+  padding-left: 5px;
+
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; }
+
+}
+.checkboxgroupWrapper{
+  background: linear-gradient(360deg, rgba(20, 20, 20, 0.980) 0%, rgba(31, 31, 31, 0.776) 100%, rgba(110, 110, 110, 0.653) 100%);
+  margin-bottom: 20px!important;
+  p{
+        margin: 20px auto;
+        margin-bottom: 20px;
+
+        padding: 10px 0;
+        border-bottom: 3px solid rgba(253, 22, 22, 0.74);
+        padding-bottom: 13px;
+        text-align: center;
+        width: 200px;
+
+  }
+  .checkboxWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10px;
+  }
+}
+.btn-label {
+    margin-right:10px;
+}

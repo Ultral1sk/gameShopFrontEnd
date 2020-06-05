@@ -1,0 +1,64 @@
+{
+  "name": "gameshop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.8",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.6",
+    "@mui-treasury/components": "^1.0.1",
+    "@mui-treasury/layout": "^3.3.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "clsx": "^1.1.0",
+    "form-data": "^3.0.0",
+    "google-map-react": "^1.1.7",
+    "mapbox-gl": "^1.10.0",
+    "node-sass": "^4.13.1",
+    "radium": "^0.26.0",
+    "react": "^16.13.1",
+    "react-cookie-consent": "^5.0.1",
+    "react-coverflow": "^0.2.20",
+    "react-dom": "^16.13.1",
+    "react-hooks-helper": "^1.6.0",
+    "react-redux": "^7.2.0",
+    "react-responsive-carousel": "^3.2.4",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-star-ratings": "^2.3.0",
+    "react-stripe-checkout": "^2.6.3",
+    "react-swipeable-views": "^0.13.9",
+    "react-transition-group": "^1.2.1",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

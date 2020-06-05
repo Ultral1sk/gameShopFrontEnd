@@ -1,0 +1,25 @@
+.errorpage{
+    /* width:100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+ */
+width: 100vw;
+height: 100vh!important;
+margin: 0;
+padding: 0;
+ .errorimage{
+    width: 40vw;
+    height: 85vh; 
+    position: absolute;
+    left:50%;
+    top:15%;
+
+ }
+ .errortext{
+     color: white;
+     font-weight: bold;
+     font-size: 3.5rem;
+     padding: 40vh 0 0 10vh;
+ }
+}

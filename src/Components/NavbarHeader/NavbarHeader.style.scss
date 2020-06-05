@@ -1,0 +1,169 @@
+
+
+@media only screen and (min-width: 375px) { 
+  
+      /* navbar settings */
+    .navbar_wrapper                { position: fixed !important; top : 0; z-index: 999; padding : 0 !important; width: 97%; ;}
+    .backgroundTrans               {transition: 2s ease; background-color: rgba(2, 1, 1, 0.342);  }
+    .backgroundNormal              {transition: 2s ease; background-color: rgb(2, 1, 1); }
+    .gameShopLogo                  {width: 3rem;}
+    .colpasedBackground            { align-items: center; justify-content: center; background-color: black;text-align: center;   color: black; position: fixed; top: 00;  height: 100vh; width: 100%;; ;}
+
+    .hamburger_icon                { z-index : 999 !important; color: white;}
+    .navbar-nav .nav-link          { color : white !important;    }  
+    .nonColapsedWrapper            { 
+      display: flex; flex-direction: column; justify-content: center; align-items: center;
+    }
+    .md-avatar                     { vertical-align: middle; width: 50px; height: 50px;}
+    /*  Game Title Subtitle Wrapper and text  */
+    .text_wrapper                  { height: 100vh; width: 100%; display: flex; flex-direction: column; justify-content : flex-end; align-items: center; ;}
+    .text_inner_wrapper_controller { width: 100%;height: 42vh ;display: flex;justify-content: space-between;flex-direction: column;align-items: center;      text-align: center;}
+    .subtitle_time_wrapper         { display: block;}
+    .swipe-fill                     { padding : 20px !important}
+    .rightNavPart                  { padding-left: 0; margin : 1rem 0rem; display: flex; flex-direction: column; justify-content: center; align-items: center; flex : 1; }
+    .shoppingCartItem              { padding: 1rem 0;}
+    .nonColapsedInnerWrapper        { display: flex; flex-direction: column; align-items: center; }
+}
+
+
+@media only screen and (min-width: 768px) { 
+    /* navbar settings */ 
+    .navbar_wrapper                { padding : 10px !important; width: 100%; }
+    .nav-link                      { padding: 0rem 1.2rem !important }
+    .colpasedBackground            { background-color: transparent; position: relative;  height: 0; width: 100%;; ;}
+    .hamburger_icon                { display: none !important; }
+    .ironMan                       { display: none !important;}
+    .nonColapsedWrapper            { width: 100%!important; display: flex; flex-direction: row !important; justify-content: center; padding-right: 1.5rem; }
+    /*  Game Title Subtitle Wrapper and text  */
+    .text_wrapper                  { height: 100vh; width: 100%; justify-content : flex-end; align-items: center; }
+    .text_inner_wrapper_controller { width : 50%; height: 60vh; justify-content: center; align-items: flex-start; text-align: left; }
+    .subtitle_time_wrapper         { display: flex;}
+
+}
+
+@media only screen and (min-width: 1024px) { 
+     /* navbar settings */ 
+    .nav-link                       { padding: 0 0 0 2.2rem !important }
+    .nonColapsedWrapper             { width: 100%; }
+    /*  Game Title Subtitle Wrapper and text  */
+    .text_inner_wrapper_controller  { width : 50% !important; height: 42vh; justify-content : flex-start !important; align-items: flex-start !important ; }
+    .rightNavPart                  { width: 30vw; margin : 1rem 0rem; display: flex; flex-direction: row; justify-content: flex-end;   }
+    .shoppingCartItem              { padding: 0rem 2rem;}
+    .nonColapsedInnerWrapper        { width: 70vw; display: flex; flex-direction: row; align-items: center; justify-content: center; }
+
+
+    @media only screen and (min-height: 1336px) { 
+      .text_inner_wrapper_controller  {  width : 50% !important; height: 42vh; justify-content : flex-start !important; align-items: flex-start !important ; }
+      .rightNavPart                  { width: 40vw; margin : 1rem 0rem; display: flex; flex-direction: row; justify-content: flex-end;   }
+  
+      .nonColapsedInnerWrapper        { width: 40vw; display: flex; flex-direction: row; align-items: center; justify-content: center; }
+  
+  }
+}
+  
+    .text_inner_wrapper_controller {   z-index: 999 !important; }
+
+
+
+// .text_wrapper {
+//     height: 74vh;
+//     width: 80%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content : flex-end;
+//     align-items: center;
+//     text-align: left;
+// }
+
+#on { width: 60px; height: 60px; padding: 1rem; transition: background-color 2s;  background-color: rgba(253, 72, 72, 0.795);  ; z-index: 999; border-radius: 50%; 
+}
+
+#off { width: 60px; height: 60px; padding: 1rem; transition: background-color 2s; background-color: rgba(255, 255, 255, 0.301); z-index: 999; border-radius: 50%; 
+}
+.subtitle_button { background-color: rgba(255, 255, 255, 0.301); border-radius: 5px; padding: 0.5rem 2rem;
+}
+// #on:focus {
+//     transition: background-color 2s;
+//     background-color: rgba(253, 30, 30, 0.384) !important;
+
+
+// }
+
+// svg {
+//     width: 60px;
+//     height: 60px;
+//     padding: 1rem;
+//     background-color: rgba(255, 255, 255, 0.384);
+//     border-radius: 50%;
+    
+// }
+//Landing page carousel gradient
+.gradient { position: absolute; height: 100vh; width: 100%; background: #313131;background: -webkit-radial-gradient(center, #00000000, #000000f1);background: -moz-radial-gradient(center, #00000000, #000000f1);background: radial-gradient(ellipse at center, #0000006c, #000000f1);z-index: 3;
+}
+//lading page text container
+.text_inner_wrapper_controller {   z-index: 999 !important; }
+
+////////////////////////////////////////
+// SWIPE FILL
+////////////////////////////////////////
+$swipe-fill-border-width: 2px;$swipe-fill-border-color: red;$sec-swipe-fill-border-color: red;$swipe-fill-button-padding: 50px 0px;$swipe-fill-text-color: white;$sec-swipe-fill-text-color: red;$swipe-fill-border-radius: 10px;$swipe-fill-background: rgba(255, 255, 255, 0);$sec-swipe-fill-background: 
+linear-gradient(180deg, rgba(255, 8, 8, 0) 11%, rgba(240, 17, 17, 0.226) 38%, rgba(239, 13, 13, 0.418) 56%,  rgba(238, 6, 6, 0.726) 81%);
+$swipe-fill-transition-time: 0.4s;
+
+.swipe-fill {display: inline-block;padding: $swipe-fill-button-padding;margin: 0 8px;text-align: center;text-decoration: none;color: $swipe-fill-text-color;background: $swipe-fill-background;position: relative;overflow: hidden;transition: color $swipe-fill-transition-time ease-in-out,  border-color $swipe-fill-transition-time ease-in-out;z-index: 1;border-radius: $swipe-fill-border-radius;
+ 
+  &:before {content: '';position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: $sec-swipe-fill-background;transition: transform $swipe-fill-transition-time ease-in-out;z-index: -1; }
+  
+  &--up {
+     &:before { transform: translate3d(0, 100%, 0);}  }
+  &--down {
+    &:before { transform: translate3d(0, -100%, 0);}  }
+  
+  &:hover {
+    color: $sec-swipe-fill-text-color;
+    border-bottom: $swipe-fill-border-width $sec-swipe-fill-border-color solid;
+  text-decoration: none;
+
+   
+    &:before {
+      transform: translate3d(0, 35%, 0);
+    }
+  }
+}
+
+
+
+// active list item in the navigation bar
+#activate {background: linear-gradient(180deg, rgba(255, 8, 8, 0) 11%, rgba(240, 17, 17, 0.041) 38%,rgba(239, 13, 13, 0.13) 56%, rgba(238, 6, 6, 0.479) 81%);border-bottom: 2px solid red;border-radius: 10px;color: red;
+
+ }
+ .admindashboard{position: fixed; padding: 20px; margin-right:0; text-decoration: none!important; font-weight: bold; color: white; z-index:1200; top: 50%; right: 0; background-color: rgba(253, 22, 22, 0.74) ; writing-mode: vertical-rl; text-orientation: mixed;
+&:hover{
+  color: white;
+  background-color: rgb(110, 21, 21);
+}
+}
+.shoppingCartItem{
+  position: relative;
+  margin: auto 0;
+}
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 9px;
+  margin-bottom: 17px;
+  position: absolute;
+}
+
+#lblCartCount {
+    font-size: 12px;
+    background: #ff0000;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+    margin-left: -10px; 
+}
+
+
+.welcomesignInOut{text-decoration: none!important; color: white; &:hover{color: red;}}
+

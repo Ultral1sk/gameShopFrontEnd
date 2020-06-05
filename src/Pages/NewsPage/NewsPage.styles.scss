@@ -1,0 +1,48 @@
+.newspageWrapper{
+    background-color: black;
+    height: 100%;
+    padding-top: 76px;
+    
+
+    .newsPageBg {
+        background: url('../../assets/newsBG.jpg') center center no-repeat; background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+.titleWrapper{
+    position: relative;
+    height: 100px;
+    margin: 40px auto;
+    width: 50%;
+
+}
+.brushImage{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 0;
+    filter: brightness(50%);
+
+}
+.newspageTitles{
+    position: absolute;
+    height: 60px;
+    line-height: 10px;
+    width: 100%;
+    top:5%;
+    font-size: 2.5rem;
+    margin: 2rem;
+        text-align: center;
+        color: white!important;
+    /*     background-image: url("../../assets//backgroundImages/brush.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat; */
+        z-index: 1;
+    }
+    
+
+

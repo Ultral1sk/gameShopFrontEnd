@@ -1,0 +1,166 @@
+@import "../../App.scss";
+$color: #0cf;
+
+* label, h3{
+    color: $mainred;
+}
+
+* h3{
+    text-align: center;
+    padding: 20px 0;
+    color:white;
+}
+h4{
+    color: white;
+}
+.divButton{
+    margin-top: 10px;
+    text-align: center;
+}
+.reviewLine{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    margin: 0 auto;
+   /*  background-color: rgb(56, 58, 54); */
+    padding: 20px;
+    width: 500px;
+    height: 540px;
+    .shippingPaymentButtonWrapper{
+        display: flex;
+        justify-content: center;
+        button{
+            margin: 0;
+            width: 150px;
+            font-size: 1.2rem;
+            &:link,
+            &:visited {
+                text-transform: uppercase;
+                text-decoration: none;
+                padding: 15px 40px;
+                display: inline-block;
+                border-radius: 100px;
+                transition: all .2s;
+            }
+            
+            &:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                background-color: red;
+            }
+            
+            &:active {
+                transform: translateY(-1px);
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            }
+            
+            
+                background-color: $mainred;
+                color: rgb(255, 255, 255);
+            
+        }
+    }
+}
+.inputFields{
+    height: 250px;
+    margin-top: 2rem;
+    .stepBlock{
+        display: flex;
+        label{
+            width: 170px;
+            font-size: 1.3rem;
+            color: white;
+        }
+    }
+
+}
+.stripeCheckout{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.steppingWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.shipIcons{
+    color: rgba(247, 202, 24, 1)!important;
+    
+}
+.personInfo, .address, .contact, .lastCheck{
+    position: relative;
+}
+.justALine{
+    
+       &::before{
+           content: '';
+           width: 200%;
+           height: 2px;
+           border-bottom: solid 5px  rgba(247, 202, 24, 1);
+           position: absolute;
+           right: 120%;
+           top: 50%;
+           z-index: 1;
+   
+       }
+
+
+
+
+}
+.multistepInputs{
+    background: linear-gradient(360deg, rgba(20, 20, 20, 0.98) 0%, rgba(31, 31, 31, 0.776) 100%, rgba(110, 110, 110, 0.653) 100%);
+    border:none;
+    color:white;
+    margin-bottom: 5px;
+}
+.allsvgs{
+    color: lightgray;
+}
+.reviewLine{
+    background-color: rgba(31, 31, 31, 0.776);
+    margin: 20px 0 15px 0;
+
+
+    h4{
+        color: rgba(247, 202, 24, 1);
+    }
+    button{
+        margin: 0;
+        &:link,
+        &:visited {
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 15px 40px;
+            display: inline-block;
+            border-radius: 100px;
+            transition: all .2s;
+        }
+        
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        &:active {
+            transform: translateY(-1px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        
+            background-color: $mainred;
+            color: rgb(255, 255, 255);
+        
+    }
+}
+.confirmShippingInfoWrapper{
+    color: white;
+}
+.allDataCorrectButton{
+    font-size: 1.6rem;
+}
+.divButton{
+    margin-top: 50px;
+
+}

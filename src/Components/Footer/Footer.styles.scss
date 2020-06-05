@@ -1,0 +1,38 @@
+
+ @media only screen and (min-width: 375px) { 
+  .footerWrapper { 
+    height: 50vh;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10rem;
+    
+    a { color : rgba(255, 255, 255, 0.664) !important;
+      padding : 0rem 3rem !important;
+      font-size: 20px;
+      &:hover {
+        text-decoration: none;
+
+      }
+    }
+  }
+  
+  .footerBG {
+      // background: linear-gradient(360deg, rgba(0, 0, 0, 0.37) 0%, rgba(0, 0, 0, 0.692) 50%, rgba(0, 0, 0, 0.582) 100%);
+      background: url('../../assets/backgroundImages/footer3.png') center center no-repeat
+       ;
+      z-index: 999; 
+      background-size: 100% 100%;
+    
+   }
+
+
+   .linesBetween {
+    background-color: rgba(255, 38, 38, 0.932);
+    margin: 8px;
+    font-size : 3px;
+   }
+
+
+ }
+

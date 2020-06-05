@@ -1,0 +1,245 @@
+.dropdown { margin-top: 0.3rem;}
+.dropdown:hover>.dropdown-menu {
+  display: block !important;
+  background: black;
+  border-top: none;
+  
+  a {
+    &:hover { background: black;}
+    &:focus {background: black; }
+  }
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+.playstationWrapper {
+  width: 200px !important;
+  &:hover::before {
+    content: "\2022";
+    color: rgb(229, 255, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin: .5rem 0 0 -0.5em;
+  
+  }
+  .playstation { 
+    background-image:linear-gradient(90deg,blue,yellow,red,purple);
+     background-clip: text;
+     -webkit-text-fill-color: transparent;
+  
+ }
+}
+
+.nintendoWrapper {
+  &:hover::before {
+    content: "\2022";
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin: .5rem 0 0 -1em;
+  
+  }
+  .nintendo { 
+    background-image:linear-gradient(90deg,rgb(255, 53, 53),rgb(92, 92, 92),rgb(255, 40, 40),rgb(83, 83, 83));
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+     
+ }
+}
+
+.xboxWrapper {
+  &:hover::before {
+    content: "\2022";
+    color: rgb(81, 255, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin: .5rem 0 0 0 !important;
+  
+  }
+  .xbox { 
+    background-image:linear-gradient(90deg,white,green,white,green);
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+  }
+}
+
+@media only screen and (min-width: 375px) { 
+    .cardWrapper { 
+        justify-content: space-around;
+        display: flex ;
+        flex-wrap: wrap;
+        width: 80vw;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .leftRightWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+   
+    .testWrapper {
+        .leftContainer {
+            border: 1px solid rgb(0, 0, 0);
+            
+            background: rgb(255, 235, 59);
+            background-size: 65% 100%;
+            margin: 2rem;
+            height: 30vh;
+            width: 35vw;
+            
+            .leftWrapperTXT {
+              position: relative;
+                background : url('../../assets/playstation.png') left no-repeat;
+                background-size: 200px 200px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+
+
+            .ps4button {
+              z-index: 1000 !important;
+              position: absolute;
+              top: 40%;
+              margin-left: 60px;
+              border: none !important;
+              outline: none !important;
+              background: transparent !important;
+              &:focus {
+                border: none !important;
+              outline: none !important;
+                
+              }
+              img{
+                &:hover {
+                  border: none !important;
+                  outline: none !important;
+                  animation: img 1s infinite;
+                  animation-timing-function: linear;  
+                }
+              }    
+              
+              @keyframes img {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.2);}
+                100% { transform: scale(1); }
+                }
+             
+              }
+            }
+        }
+       
+      
+        .rightContainer {
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            z-index : 999 !important;
+            clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 100%, 34% 46%);
+            float: right;
+            height: 29.8vh;
+            width: 19vw;
+            border: none !important;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+    
+    .platformsTableWrapper  {
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center ;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .modalImage {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      height: 45vh;
+    }
+    .modal-dialog {
+      background-color: rgba(44, 44, 44, 0.404);
+
+      .modal-content {
+        background-color: rgba(44, 44, 44, 0.404);
+      }
+    }
+    .platformGameInfoTitle {
+      font-size: 30px;
+      margin-top: 0rem;
+    }
+
+    .modalGameDescription {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5rem;
+    }
+
+    .descriptionScoreDateWrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 20vh;
+
+    }
+    .gameDescrip {
+      text-align: left !important;
+      color: white;
+      padding-left:  20px;
+      height: 100%;
+    }
+    .dateReviewWrapper { 
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      height: 40%; 
+    }
+    .releaseDateWrapper { font-size: 10px; padding: 10px; }
+    .reviewScoreWrapper {padding: 5px; border: 1px solid red; border-radius: 50%; background-color: rgba(255, 255, 255, 0.274);}
+  
+    .card { border: none !important; ;}
+    .cardImgWrapper { background-color: rgb(0, 76, 175);  img { width: 100%; height: 30vh;}}
+    .card-body { background-color: #ffeb3b; display: flex; flex-direction: column; justify-content: space-between;} 
+    .card-text{text-align: justify;}
+    .cardTitle { padding: 3rem 0;  h2 {font-size: 60px}}
+
+    /* nintendo styles */
+    .nintendoLeftTXTWrapper {  
+      background : url('../../assets/nintendo.png') left no-repeat !important;
+      background-size: 150px 130px !important;
+      
+    }
+    .nintendo { background-color: rgba(252, 71, 71, 0.925) !important; }
+    .nintendoBG {  background-color: rgb(255, 59, 59) !important;  img { width: 85%; height: 30vh; padding: 1rem 0;}}
+    .cardInnerNintendoTitle { border-bottom: 1px solid rgba(110, 110, 110, 0.473); width: 60%; margin: 0 auto;}
+    .cardInnerPlaystationTitle { border-bottom: 1px solid rgba(0, 0, 0, 0.274); width: 60%; height: 6rem; margin: 0 auto;}
+    /* nintendo styles */
+    /* xbox styles */
+    .xboxBG { background-color: rgb(0, 133, 0) !important; img { width: 85%; height: 30vh; padding: 1rem 0;} }
+    .xbox { background-color: rgb(0, 150, 0) !important; }
+    .xboxLeftTXTWrapper { 
+      background : url('../../assets/xboxHardware.png') left no-repeat !important;
+      background-size: 220px 180px !important;
+
+    }
+    .xboxDescription { background-color: rgb(214, 214, 214);}
+}
+
+.theline { color: rgb(255, 74, 74) !important; background-color: rgb(255, 109, 109) !important; }

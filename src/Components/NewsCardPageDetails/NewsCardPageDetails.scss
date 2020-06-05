@@ -1,0 +1,24 @@
+.newscardsWrapper{
+    background : linear-gradient(360deg, rgba(0, 0, 0, 0.575) 0%, rgba(26, 25, 25, 0.85) 100%, rgb(26, 26, 26) 100%);
+    color: white!important;
+    h2{
+        color:white;
+        border-left: 3px solid red;
+        padding-left: 10px;
+        font-family: 'Gugi';
+        font-weight: 600;
+    }
+            small {
+            font-weight: bold;
+            font-family: 'Gugi';
+            span{
+                color: rgb(219, 44, 44)!important;
+            }
+    
+            }
+    .newscardsImage{
+        width: 180px;
+        height: 120px;
+        box-shadow: 10px 28px 38px -25px rgba(247,5,5,0.85);
+    }
+}

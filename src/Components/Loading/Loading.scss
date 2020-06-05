@@ -1,0 +1,13 @@
+.LoadingWrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: 1000;
+    img{
+        width: 20%;
+        height: 20%;  
+        position: absolute;
+        top: 50%;
+        left: 40%;      
+    }
+}

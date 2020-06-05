@@ -1,0 +1,29 @@
+
+.modalImage {
+    width: 100%;
+    height: 50vh;
+}
+.leftPartModalElements{
+    margin-top: 4rem;
+    h2{
+        text-align: center;
+    }
+}
+.reviewScore{
+    padding: 2rem 0;
+
+}
+
+.description {
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.reviewScore {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

@@ -1,0 +1,118 @@
+
+
+@media only screen and (min-width: 375px) {
+    
+
+.bestSellerWrapper{
+    //  background-color: black;
+    
+    // clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 78%, 0 0);
+    // background-color: black;
+    // background: url('../../assets/wader.jpg') center center  no-repeat; background-size: cover;
+    height: 75vh;
+    color: white;
+    padding:  0rem 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+        .descriptionPart{
+            padding-top: 3%;
+            max-width: 800px;
+            padding-left: 2%;
+            .descriptionPartUpper{
+                display: flex;
+                align-items: center;
+                padding: 1rem 0;
+            }
+    }
+    }
+    .carouselFlowWrap{
+        width: 100%;
+        position: relative;
+        padding: 3% 0;
+    
+    }
+    .bestgames{
+        border-left: 6px solid red;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        margin-left: 2%;
+        h5{
+            color: rgb(187, 171, 171);
+            letter-spacing: 7px;
+            margin-left: 15px;
+            opacity: 0.6;
+        }
+        h1{
+            margin-left: 15px;
+        }
+    }
+    .ratings{
+        display: flex;
+        align-items: center;
+        width: 120%;
+        margin: 5% 2%;
+        .starRating{
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            h5{
+                color: grey;
+                font-size: 1.1rem;
+                margin: 0;
+            }
+        }
+    }
+    .titleDescription{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        h2{
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        h5{
+            height: 80px;
+            color:grey;
+            font-size: 3.5vw;
+        }
+    }
+    
+    .platformsWrapper{
+    width: 100%;
+    text-align: center;
+        img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    .boxPrices { display: flex; flex-direction: column; align-items: center; justify-content: center; margin-left: 10%;
+        h2,h4 { margin: 0; }
+    }
+    .priceAndBuy{
+        display: flex;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 2%;
+    }
+  
+    
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .bestSellerWrapper{ margin: 0 !important; }
+    .titleDescription{
+
+        h5{
+        
+          
+            font-size: 1vw;
+        }
+    }
+    
+
+ }

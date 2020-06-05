@@ -1,0 +1,104 @@
+.sidenav_wrapper {
+  height: 100%;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 4rem;
+
+}
+
+.sidenav a {
+  border-bottom: 2px solid rgba(78, 78, 78, 0.103);
+  
+  padding: 3rem 0;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 100px 30px;
+  height: 100vh;
+  color: white;;
+
+  input { 
+    color: white !important;
+    background: linear-gradient(360deg, rgba(20, 20, 20, 0.98) 0%, rgba(31, 31, 31, 0.776) 100%, rgba(110, 110, 110, 0.653) 100%);
+
+  }
+
+  form { padding: 1rem 5rem;}
+}
+
+@media screen and (max-width: 450px) {
+
+  .sidenav a {font-size: 18px;}
+  .sidenav_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidenav_wrapper {
+    padding-top: 40px;
+    
+  }
+
+
+  .sidenav {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 10;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+ 
+  }
+  .main {
+    margin-left: 0; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 40px 30px;
+    text-align: center;
+
+
+    h2 { padding: 1rem 0;}
+  }
+}
+
+
+.toPersonalInformationWrapperOn {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+
+  div {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+
+    svg { 
+      color: rgb(252, 55, 55);
+    
+  }
+
+}
+}
+

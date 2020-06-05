@@ -1,0 +1,18 @@
+.admindashboardwrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+.boss{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 200px;
+}
+.btnColor{
+    background-color:rgba(253, 22, 22, 0.74)!important;
+    color:white!important;
+}

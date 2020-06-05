@@ -1,0 +1,246 @@
+
+@media only screen and (min-width: 375px) {
+  .NewsLetterWrapper {
+    width: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.548) 0%, rgba(0, 0, 0, 0.637) 50%, rgba(0,0,0,0.8911939775910365) 100%);
+    display:flex;
+    position:relative;
+    height: 100vh;
+    form { width: 400px;}
+  }
+  .newsletterBGLeft {
+   clip-path: polygon(0 0, 100% 30%, 100% 85%, 0% 100%);  
+    transform: rotateX(00deg) rotateY(0deg) rotateZ(00deg);
+    height: 85%;
+    margin: 0 !important;
+    width: 100vw;
+    background: url('../../assets/backgroundImages/newsleterrBGLeft.jpg') center center no-repeat; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+
+    .newsletterForm {
+      width: 100%;
+      height: 60%;
+      display: flex ;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+
+    .newsletterWrapper {
+      color: white;
+      border-left: 3px solid rgba(255, 47, 47, 0.753);
+      padding: 0.5rem 0.5rem;
+      margin-bottom: 1rem ;
+      font-size: 3;
+      width: 100%;
+      height: 100px;
+
+      h2 { padding-left: 0.5rem; font-size: 5vw;}
+      p {  padding-left: 0.5rem; color: rgba(119, 119, 119, 0.671); }
+    }
+
+    .errorMsg {
+      color : rgba(255, 47, 47, 0.753);
+      padding: 0 !important;
+    } 
+    
+  }
+
+  .img3{ display: none; } 
+  .mycustom {
+    border: solid 3px rgba(139, 139, 139, 0.205);
+    position: relative;
+    border-radius: 30px;
+    width: 300px;
+    
+    .input-group {
+      width: 300px;
+    
+    }
+}
+.mycustom input[type=email] {
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 1rem;
+    color: white;
+    background: transparent;
+    &:focus {
+      border: none;
+    }
+    
+}
+.mycustom .input-group-prepend {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;z-index:9;
+    color: rgba(44, 44, 44, 0.671);
+ 
+    .submitButton {
+      color: rgba(119, 119, 119, 0.671);
+      background-color:rgba(44, 44, 44, 0.479);
+      border-radius: 30px;
+      padding: 0 1rem;
+      border: 1px solid transparent;
+      &:focus {
+        outline: none;
+       
+      }
+    }
+}
+ }
+
+
+ @media only screen and (min-width: 1024px) {
+   .newsletterBGLeft {
+  clip-path: polygon(0 0, 100% 30%, 100% 85%, 0% 100%);  
+   transform: rotateX(00deg) rotateY(0deg) rotateZ(00deg);
+   height: 85%;
+   width: 70vw;
+   background: url('../../assets/backgroundImages/newsleterrBGLeft.jpg') center center no-repeat; 
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 3rem;
+
+   .newsletterForm {
+    width: 50%;
+    height: 40%;
+    display: flex ;
+    align-items: flex-end;
+    justify-content:flex-end;
+  }
+
+   .newsletterWrapper {
+     color: white;
+     border-left: 3px solid rgba(255, 47, 47, 0.753);
+     padding: 0rem 0.5rem;
+     margin: 2rem 0 ;
+     width: 280px;
+     height: 100px;
+
+     h2 { padding-left: 0.5rem; font-size: 35px;}
+     p {  padding-left: 0.5rem; color: rgba(119, 119, 119, 0.671); }
+   }
+
+   .mycustom input[type=email] {
+    width: 250px !important;
+
+    }
+
+
+   .errorMsg {
+     color : rgba(255, 47, 47, 0.753);
+     padding: 0 !important;
+   } 
+   
+ }
+
+ .newsletterBGRight {
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 81%); 
+   transform: rotateX(00deg) rotateY(0deg) rotateZ(00deg); 
+   height: 85%;
+   width: 30vw;
+   background: url('../../assets/backgroundImages/newsletterBGRight.jpg') center center no-repeat; 
+   background-size: 100% 100%;
+   
+}
+ .img3{
+   display: block;
+     position: absolute;
+     top: 10%;
+     left: 50%;
+     width: 40vw;
+     z-index: 10;
+ }
+
+
+  }
+
+  @media only screen and (min-width: 1580px) { 
+
+    .img3{
+      display: block;
+     
+        top: 5%;
+        left: 60%;
+        width: 30vw;
+        z-index: 10;
+    }
+    .newsletterWrapper {
+      height: 100px;
+      padding-top: 0.5rem !important;
+    }
+    .newsletterForm {
+      width: 58% !important;
+      height: 20% !important; 
+    }
+
+  }
+
+
+
+
+
+
+
+//  .newsletterBGLeft {
+//   clip-path: polygon(0 0, 100% 30%, 100% 85%, 0% 100%);  
+//    transform: rotateX(00deg) rotateY(0deg) rotateZ(00deg);
+//    height: 85%;
+//    width: 70vw;
+//    background: url('../../assets/backgroundImages/newsleterrBGLeft.jpg') center center no-repeat; 
+//    background-size: cover;
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    padding-top: 3rem;
+
+ 
+
+//    .newsletterWrapper {
+//      color: white;
+//      border-left: 3px solid rgba(255, 47, 47, 0.753);
+//      padding: 0.5rem 0.5rem;
+//      margin-bottom: 1rem ;
+//      font-size: 3;
+//      width: 300px;
+//      height: 100px;
+
+//      h2 { padding-left: 0.5rem;}
+//      p {  padding-left: 0.5rem; color: rgba(119, 119, 119, 0.671); }
+//    }
+
+//    .errorMsg {
+//      color : rgba(255, 47, 47, 0.753);
+//      padding: 0 !important;
+//    } 
+   
+//  }
+
+
+
+
+
+//  .newsletterBGRight {
+//   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 81%); 
+//    transform: rotateX(00deg) rotateY(0deg) rotateZ(00deg); 
+//    height: 85%;
+//    width: 30vw;
+//    background: url('../../assets/backgroundImages/newsletterBGRight.jpg') center center no-repeat; 
+//    background-size: 100% 100%;
+   
+// }
+//  .img3{
+//      position: absolute;
+//      top: 5%;
+//      left: 60%;
+//      width: 30vw;
+//      z-index: 10;
+//  }
